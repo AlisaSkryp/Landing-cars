@@ -11186,6 +11186,10 @@ body {
   .social img {
     margin: unset;
   }
+
+  .btn-outline-secondary {
+    width: 100%;
+  }
 }
 .navbar-collapse {
   justify-content: flex-end;
@@ -11274,6 +11278,14 @@ body {
 
 @media (max-width: 576px) {
   .subscribe button {
+    width: 100%;
+  }
+
+  .btn-primary {
+    margin-left: 25px;
+  }
+
+  .col-auto {
     width: 100%;
   }
 }
@@ -11506,6 +11518,10 @@ form {
     display: flex;
     flex-direction: column;
   }
+
+  .checkbox {
+    margin-top: 20px;
+  }
 }
 .sign-up h4, .sign-up .h4 {
   font-family: "Noto Sans", sans-serif;
@@ -11631,15 +11647,15 @@ footer .navbar {
   opacity: 0.9;
 }
 
-.image {
+.image-card {
   position: relative;
 }
 
-.image-fluid {
+.image {
   width: 100%;
 }
 
-.image svg {
+.image-card svg {
   position: absolute;
   bottom: 0;
   left: 0;
